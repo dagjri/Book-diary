@@ -2,27 +2,42 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>Cafe 北斗七星 ｜ 夜空と珈琲の読書室</title>
+    <title>Cafe 北斗七星 ｜ 深夜の編集室</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- ヘルシーな星空の背景を演出するコンテナ -->
+    <!-- 星空の背景と北斗七星 -->
     <div class="night-sky">
+        <div class="big-dipper"></div>
+        <div class="small-stars"></div>
         
         <!-- ヘッダー -->
         <header class="site-header">
-            <p class="sub-title">Starlight Book Cafe</p>
-            <h1>Cafe 北斗七星</h1>
-            <p class="description">夜の静けさと、温かいお供と、心に残る物語を。</p>
+            <div class="owl-container">
+                <div class="owl-character"></div>
+            </div>
+            <div class="header-text">
+                <p class="sub-title">Midnight Editor's Study</p>
+                <h1>Cafe 北斗七星</h1>
+                <p class="description">静かな夜に、あなたの物語を紡ぐ場所。</p>
+            </div>
         </header>
 
-        <!-- メインコンテンツ（読書記録のカード） -->
+        <!-- メインコンテンツ（読書記録） -->
         <main class="book-container">
             
-            <!-- 読書カード 1冊目 -->
+            <!-- 読書カード 1冊目（ここをコピーして増やします） -->
             <div class="book-card">
-                <div class="star-rating">✨✨✨✨✨</div>
+                <div class="card-header">
+                    <div class="star-rating">
+                        <!-- ここに小さなCSS星を入れます。評価の数だけ<i>タグを増やします。 -->
+                        <i></i><i></i><i></i><i></i><i></i>
+                    </div>
+                </div>
                 <h2 class="book-title">『 ここに本のタイトル 』</h2>
                 <p class="author">著者名 / 〇〇 著</p>
                 <div class="pairing">☕ 今夜のお供：ホットミルクティー</div>
@@ -38,7 +53,7 @@
 
         <!-- フッター -->
         <footer class="site-footer">
-            <p>&copy; 2026 Cafe 北斗七星</p>
+            <p>&copy; 2026 Cafe 北斗七星 | 深夜の編集室</p>
         </footer>
 
     </div>
